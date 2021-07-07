@@ -1,0 +1,2 @@
+rootProject.name = "PodlodkaUIClassic"
+include ':app'

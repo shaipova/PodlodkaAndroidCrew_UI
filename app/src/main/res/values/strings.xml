@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PodlodkaUIClassic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="failed_to_add_session_to_favorites">Не удалось добавить сессию в избранное</string>
+    <string name="speaker">speaker</string>
+    <string name="date">date</string>
+    <string name="timeinterval">timeInterval</string>
+    <string name="description">description</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fav_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="1.0">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/photo_session"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"/>
+<!--            android:src="@mipmap/ic_launcher_round"-->
+
+
+        <LinearLayout
+            android:id="@+id/fav_lin_layout"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/speaker_session"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Юлёна Сладкая"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/time_interval_session"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="10:00 - 12:30"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/description_session"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="Доклад о том как классно быть разработчицей" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/fav_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/ic_baseline_favorite_border_24"
+            />
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
