@@ -6,4 +6,8 @@
     <string name="date">date</string>
     <string name="timeinterval">timeInterval</string>
     <string name="description">description</string>
+    <string name="session_date">session date</string>
+    <string name="sessions">Сессии</string>
+    <string name="fav">Избранное</string>
+    <string name="search">Поиск</string>
 </resources>

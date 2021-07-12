@@ -29,21 +29,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
-                android:text="25 июля" />
+                android:text="@string/session_date" />
 
             <TextView
                 android:id="@+id/speaker"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Юлёна Сладкая"
+                android:text="@string/speaker"
                 android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Доклад о том как классно быть разработчицей" />
+                android:text="@string/description" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

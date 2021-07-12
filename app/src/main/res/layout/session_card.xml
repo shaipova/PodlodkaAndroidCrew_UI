@@ -20,8 +20,6 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="8dp"/>
-<!--            android:src="@mipmap/ic_launcher_round"-->
-
 
         <LinearLayout
             android:id="@+id/fav_lin_layout"
@@ -35,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="Юлёна Сладкая"
+                android:text="Speaker"
                 android:textColor="@color/black" />
             <TextView
                 android:id="@+id/time_interval_session"
@@ -50,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lines="2"
-                android:text="Доклад о том как классно быть разработчицей" />
+                android:text="Description" />
         </LinearLayout>
 
         <ImageButton
