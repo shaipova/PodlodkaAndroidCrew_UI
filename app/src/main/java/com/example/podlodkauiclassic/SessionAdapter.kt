@@ -28,7 +28,7 @@ class SessionAdapter(val list: MutableList<Session>, val viewModel: SessionViewM
 
         fun bindViews(session: Session) {
             speaker.text = session.speaker
-            timeInterval.text = session.timeInterval
+            timeInterval.text = "${session.timeInterval}, ${session.date}"
             description.text = session.description
 
             val picasso = Picasso.get()

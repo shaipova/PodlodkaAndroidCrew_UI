@@ -43,6 +43,10 @@ class SessionFragment : Fragment() {
 
         viewModel.favList.observe(viewLifecycleOwner, Observer {
             binding.favRecyclerView.adapter = FavAdapter(it, viewModel)
+            if (it.size != 0) {
+                    binding.tvFav.visibility = View.VISIBLE
+                }
+
         })
 
         viewModel.snackbar.observe(viewLifecycleOwner, Observer {
